@@ -3,7 +3,8 @@
 SingStarDB.app is a web application that allows users to search for songs and find out on which SingStar version they are available. 
 
 ## Help needed!
-I have only added German PS2 SingStar songs, feel free to open up a PR and add more songs to the [singstarData.json](https://github.com/Stockenberger/singstardb.app/blob/f09923a6b3e419cafc6475be6feefd84ac7b226a/src/singstarData.json)
+I have only added German PS2 SingStar songs for now. 
+Feel free to open up a PR and add more songs to the [singstarData.json](https://github.com/Stockenberger/singstardb.app/blob/f09923a6b3e419cafc6475be6feefd84ac7b226a/src/singstarData.json)
 
 ## Features
 
