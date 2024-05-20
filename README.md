@@ -20,7 +20,6 @@ Feel free to open up a PR and add more songs to the [singstarData.json](https://
 3. Press Enter or click on the search button.
 4. View the results to see on which SingStar version the song is available.
 5. Use the "Report an Error" link to report any issues or errors with the application.
-6. Access the Impressum page for legal information.
 
 ## Technologies Used
 
