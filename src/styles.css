@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: 'Bebas Neue', sans-serif; /* Use Bebas Neue font */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: var(--heading-color);
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .list-group-item {
+    background-color: var(--item-background-color);
+    border: 1px solid var(--item-border-color);
+  }
+  
+  :root {
+    --background-color: #181818;
+    --text-color: #ffffff;
+    --heading-color: #f8f9fa;
+    --item-background-color: #343a40;
+    --item-border-color: #4a4a4a;
+  }
+.logo {
+    font-family: 'Bebas Neue', sans-serif; /* Use Bebas Neue font */
+    font-size: 2.5rem; /* Increase font size */
+    color: #ff4a63; /* Set color to a vibrant hue */
+    letter-spacing: 2px; /* Add letter spacing for better readability */
+    margin-bottom: 20px; /* Add some spacing below the logo */
+  }
+  
+  .lowercase {
+    text-transform: lowercase; /* Convert text to lowercase */
+  }
+  
+  
+  
+  
+  
