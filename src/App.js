@@ -68,17 +68,25 @@ function App() {
           ))}
         </select>
       </div>
-      <ul className="list-group">
-        {filteredSongs.map((song, index) => (
-    <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
-    {song.name}
-    <div>
-      {song.platforms.includes('PS2') && <img src="/ps2.png" alt="PS2" style={{ marginLeft: '5px', height: '20px' }} />}
-      {song.platforms.includes('PS3') && <img src="/ps3.png" alt="PS3" style={{ marginLeft: '5px', height: '20px' }} />}
-    </div>
-  </li>
-        ))}
-      </ul>
+      <ul className="list-group" style={{ width: '100%' }}>
+  {filteredSongs.map((song, index) => (
+    <li key={index} className="list-group-item">
+      <div className="d-flex justify-content-between align-items-center">
+        <div style={{ width: '65%', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+          {song.name}
+        </div>
+        <div style={{ width: '30%', textAlign: 'right' }}>
+          <div>
+            {song.platforms.includes('PS2') && <img src="/ps2.png" alt="PS2" style={{ height: '15px' }} />}
+            {song.platforms.includes('PS3') && <img src="/ps3.png" alt="PS3" style={{ height: '15px' }} />}
+          </div>
+          <div>{song.singstarVersion}</div>
+        </div>
+      </div>
+    </li>
+  ))}
+</ul>
+
     </div>
   );
 }
