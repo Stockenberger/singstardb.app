@@ -72,7 +72,7 @@ function App() {
   {filteredSongs.map((song, index) => (
     <li key={index} className="list-group-item">
       <div className="d-flex justify-content-between align-items-center">
-        <div style={{ width: '65%', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+        <div style={{ width: '50%', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {song.name}
         </div>
         <div style={{ width: '30%', textAlign: 'right' }}>
