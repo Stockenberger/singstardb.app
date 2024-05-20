@@ -65,11 +65,3 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 License
 
 This project is licensed under the MIT License.
-Acknowledgements
-
-    Special thanks to OpenAI for providing the technology that powers ChatGPT, the AI assistant used in developing this project.
-
-vbnet
-
-
-Feel free to customize the content to better suit your project's specif
