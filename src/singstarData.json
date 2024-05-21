@@ -795,7 +795,44 @@
           "Take That - Why Can't I Wake Up With You",
           "Take That feat. Lulu - Relight My Fire"
         ]
-      }  
+      },
+      {
+        "version": "SingStar: Chartbreaker (2009)",
+        "platforms": ["PS2"],
+        "songs": [
+          "Adamski - Killer",
+          "Ann Lee - 2 Times",
+          "Ashford & Simpson - Solid",
+          "Baltimora - Tarzan Boy",
+          "Black - Wonderful Life",
+          "Charles & Eddie - Would I Lie To You",
+          "China Crisis - Wishful Thinking",
+          "Cinema Bizarre - Lovesongs (They Kill Me)",
+          "Daryl Braithwaite - One Summer",
+          "David Dundas - Jeans On",
+          "Eighth Wonder - I'm Not Scared",
+          "Emilia - Big Big World",
+          "Harpo - Moviestar",
+          "Joshua Kadison - Jessie",
+          "Lisa Stansfield - All Around The World",
+          "Marc Almond & Gene Pitney - Something's Gotten Hold Of My Heart",
+          "Marshall Hain - Dancing In The City",
+          "Max Werner - Rain In May",
+          "Maxi Priest - Close To You",
+          "OMC - How Bizarre",
+          "Orange Blue - She's Got That Light (Orange Mix)",
+          "P. M. Sampson - We Love To Love",
+          "Samantha Fox - Touch Me (I Want Your Body)",
+          "Sniff'n the Tears - Driver's Seat",
+          "Talk Talk - Such A Shame",
+          "Tasmin Archer - Sleeping Satellite",
+          "Thomas Godoj - Love Is You",
+          "Thompson Twins - Doctor! Doctor!",
+          "Watershed - Indigo Girl",
+          "Whigfield - Saturday Night"
+        ]
+      }
+       
     ]
     
   }
