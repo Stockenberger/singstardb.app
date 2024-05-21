@@ -63,7 +63,7 @@ function App() {
   
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">SingStarDB</h1>
+      <h1 className="text-center mb-4 logo">SingStarDB</h1>
       <div className="form-group">
         <input
           type="text"
