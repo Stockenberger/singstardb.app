@@ -2,7 +2,7 @@
   
     "DE": [
       {
-        "version": "SingStar (2004)",
+        "version": "SingStar",
         "platforms": ["PS2"],
         "songs": [
         "A-ha - Take on Me",
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "version": "SingStar Party (2004)",
+        "version": "SingStar Party",
         "platforms": ["PS2"],
         "songs": [
           "Alicia Keys - Fallin'",
@@ -74,7 +74,7 @@
         ]
       },
       {
-        "version": "SingStar Pop/The Dome (2005)",
+        "version": "SingStar Pop/The Dome",
         "platforms": ["PS2"],
         "songs": [
           "Annett Louisan - Das Spiel",
@@ -110,7 +110,7 @@
         ]
       },
       {
-        "version": "SingStar 80's (Germany)",
+        "version": "SingStar 80's",
         "platforms": ["PS2"],
         "songs": [
           "Billy Joel - Uptown Girl",
@@ -145,7 +145,7 @@
         ]
       },
       {
-        "version": "SingStar: Rocks! (2005)",
+        "version": "SingStar Rocks!",
         "platforms": ["PS2"],
         "songs": [
           "Blur - Song 2",
@@ -181,7 +181,7 @@
         ]
       },
       {
-        "version": "SingStar Deutsch Rock-Pop (2006)",
+        "version": "SingStar Deutsch Rock-Pop",
         "platforms": ["PS2"],
         "songs": [
           "2raumwohnung - Wir Trafen Uns In Einem Garten",
@@ -217,7 +217,7 @@
         ]
       },
       {
-        "version": "SingStar Anthems (2006)",
+        "version": "SingStar Anthems",
         "platforms": ["PS2"],
         "songs": [
           "Bananarama - I Heard A Rumour",
@@ -243,7 +243,7 @@
         ]
       },
       {
-        "version": "SingStar: Legends (2006)",
+        "version": "SingStar Legends",
         "platforms": ["PS2"],
         "songs": [
           "Aretha Franklin - Respect",
@@ -278,7 +278,7 @@
         ]
       },
       {
-        "version": "SingStar Pop Hits (2007)",
+        "version": "SingStar Pop Hits",
         "platforms": ["PS2"],
         "songs": [
           "All Saints - Black Coffee",
@@ -349,7 +349,7 @@
         ]
       },
       {
-        "version": "SingStar: Die Toten Hosen",
+        "version": "SingStar Die Toten Hosen",
         "platforms": ["PS2"],
         "songs": [
           "Die Toten Hosen - 1000 Gute Gründe",
@@ -415,7 +415,7 @@
         ]
       },
       {
-        "version": "SingStar R&B (2007)",
+        "version": "SingStar R&B",
         "platforms": ["PS2"],
         "songs": [
           "Amerie - One Thing",
@@ -451,7 +451,7 @@
         ]
       },
       {
-        "version": "SingStar RockBallads (2007)",
+        "version": "SingStar RockBallads",
         "platforms": ["PS2"],
         "songs": [
           "Air Supply - All Out Of Love",
@@ -487,7 +487,7 @@
         ]
       },
       {
-        "version": "SingStar Après-Ski Party (2007)",
+        "version": "SingStar Après-Ski Party",
         "platforms": ["PS2"],
         "songs": [
           "Banaroo - Dubi Dam Dam",
@@ -523,7 +523,7 @@
         ]
       },
       {
-        "version": "SingStar: ABBA (2008)",
+        "version": "SingStar ABBA",
         "platforms": ["PS2", "PS3"],
         "songs": [
           "ABBA - Chiquitita",
@@ -549,7 +549,7 @@
         ]
       },
       {
-        "version": "SingStar: ABBA (2008)",
+        "version": "SingStar ABBA ",
         "platforms": ["PS3"],
         "songs": [
           "ABBA - Happy New Year",
@@ -560,7 +560,7 @@
         ]
       },
       {
-        "version": "SingStar - Singalong with Disney (2008)",
+        "version": "SingStar Singalong with Disney",
         "platforms": ["PS2"],
         "songs": [
           "101 Dalmatians - Cruella De Vil",
@@ -586,7 +586,7 @@
         ]
       },
       {
-        "version": "SingStar Schlager (2008)",
+        "version": "SingStar Schlager",
         "platforms": ["PS2"],
         "songs": [
           "Bernd Clüver - Der Junge Mit Der Mundharmonika",
@@ -622,7 +622,7 @@
         ]
       },
       {
-        "version": "SingStar: Queen (2009)",
+        "version": "SingStar Queen",
         "platforms": ["PS2", "PS3"],
         "songs": [
           "Queen - Another One Bites The Dust",
@@ -648,7 +648,7 @@
         ]
       },
       {
-        "version": "SingStar: Queen (2009)",
+        "version": "SingStar Queen",
         "platforms": ["PS3"],
         "songs": [
           "Queen - A Kind Of Magic",
@@ -659,7 +659,7 @@
         ]
       },
       {
-        "version": "SingStar: Mallorca Party (2010)",
+        "version": "SingStar Mallorca Party",
         "platforms": ["PS3"],
         "songs": [
           "Almklausi - Ich Vermiss Dich (Wie die Hölle) - Mallorca Version",
@@ -694,7 +694,7 @@
         ]
       },
       {
-        "version": "SingStar: Mallorca Party (2010)",
+        "version": "SingStar Mallorca Party",
         "platforms": ["PS2"],
         "songs": [
           "Almklausi - Ich Vermiss Dich (Wie Die Hölle)  Mallorca-Version",
@@ -730,7 +730,7 @@
         ]
       },
       {
-        "version": "SingStar Made in Germany (2009)",
+        "version": "SingStar Made in Germany",
         "platforms": ["PS2"],
         "songs": [
           "2raumwohnung - Wir Werden Sehen",
@@ -766,7 +766,7 @@
         ]
       },
       {
-        "version": "SingStar: Take That (2009)",
+        "version": "SingStar Take That",
         "platforms": ["PS2", "PS3"],
         "songs": [
           "Take That - Babe",
@@ -797,7 +797,7 @@
         ]
       },
       {
-        "version": "SingStar: Chartbreaker (2009)",
+        "version": "SingStar Chartbreaker",
         "platforms": ["PS2"],
         "songs": [
           "Adamski - Killer",
