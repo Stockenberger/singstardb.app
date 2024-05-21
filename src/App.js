@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
 import singstarData from './singstarData.json';
+import ps2Logo from './ps2_logo.png';
+import ps3Logo from './ps3_logo.png';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -27,30 +29,41 @@ function App() {
   const filterSongs = (searchTerm, country) => {
     let filtered = [];
     const countries = country === 'All' ? Object.keys(singstarData) : [country];
-
+  
     countries.forEach((country) => {
       singstarData[country].forEach((version) => {
-        if (version.platforms.includes('PS2') || version.platforms.includes('PS3')) {
-          version.songs.forEach((song) => {
-            if (song.toLowerCase().includes(searchTerm.toLowerCase())) {
-              filtered.push({
-                name: song,
-                singstarVersion: version.version,
-                country: country,
-                platforms: version.platforms
-              });
-            }
-          });
-        }
+        let songs = version.songs.map(song => ({
+          name: song,
+          version: version.version,
+          platforms: version.platforms,
+          country: country
+        }));
+  
+        filtered.push({ version: version.version, songs: songs });
       });
     });
-
+  
+    // Flatten the filtered array and remove duplicates
+    filtered = filtered.map(item => ({
+      version: item.version,
+      songs: item.songs
+    }));
+  
+    // Filter by search term
+    if (searchTerm) {
+      filtered.forEach((version) => {
+        version.songs = version.songs.filter(song =>
+          song.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+      });
+    }
+  
     setFilteredSongs(filtered);
   };
-
+  
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4 logo">SingStarDB<span className="lowercase">.app</span></h1>
+      <h1 className="text-center mb-4">SingStarDB</h1>
       <div className="form-group">
         <input
           type="text"
@@ -68,25 +81,32 @@ function App() {
           ))}
         </select>
       </div>
-      <ul className="list-group" style={{ width: '100%' }}>
-  {filteredSongs.map((song, index) => (
-    <li key={index} className="list-group-item">
-      <div className="d-flex justify-content-between align-items-center">
-        <div style={{ width: '50%', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-          {song.name}
-        </div>
-        <div style={{ width: '30%', textAlign: 'right' }}>
-          <div>
-            {song.platforms.includes('PS2') && <img src="/ps2.png" alt="PS2" style={{ height: '15px' }} />}
-            {song.platforms.includes('PS3') && <img src="/ps3.png" alt="PS3" style={{ height: '15px' }} />}
-          </div>
-          <div>{song.singstarVersion}</div>
-        </div>
-      </div>
-    </li>
-  ))}
-</ul>
-
+      <ul className="list-group">
+        {filteredSongs.map((version, index) => (
+          <React.Fragment key={index}>
+            {version.songs.map((song, songIndex) => (
+              <li key={songIndex} className="list-group-item d-flex justify-content-between align-items-center">
+                <span>{song.name}</span>
+                <div className="d-flex flex-column align-items-end">
+                  {song.platforms.includes('PS2') && song.platforms.includes('PS3') && (
+                    <div className="d-flex">
+                      <img src={ps2Logo} alt="PS2" style={{ width: '70px', marginRight: '5px' }} />
+                      <img src={ps3Logo} alt="PS3" style={{ width: '70px', marginRight: '5px' }} />
+                    </div>
+                  )}
+                  {!song.platforms.includes('PS3') && song.platforms.includes('PS2') && (
+                    <img src={ps2Logo} alt="PS2" style={{ width: '70px', marginRight: '5px' }} />
+                  )}
+                  {!song.platforms.includes('PS2') && song.platforms.includes('PS3') && (
+                    <img src={ps3Logo} alt="PS3" style={{ width: '70px', marginRight: '5px' }} />
+                  )}
+                  <span>{version.version}</span>
+                </div>
+              </li>
+            ))}
+          </React.Fragment>
+        ))}
+      </ul>
     </div>
   );
 }

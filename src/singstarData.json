@@ -1,4 +1,5 @@
 {
+  
     "DE": [
       {
         "version": "SingStar (2004)",
@@ -520,9 +521,149 @@
           "Wolfgang Petry - Wahnsinn",
           "Yoomiii - A Kiss Is All I Miss"
         ]
+      },
+      {
+        "version": "SingStar: ABBA (2008)",
+        "platforms": ["PS2", "PS3"],
+        "songs": [
+          "ABBA - Chiquitita",
+          "ABBA - Dancing Queen",
+          "ABBA - Does Your Mother Know",
+          "ABBA - Fernando",
+          "ABBA - Gimme! Gimme! Gimme! (A Man After Midnight)",
+          "ABBA - I Do, I Do, I Do, I Do, I Do",
+          "ABBA - Knowing Me, Knowing You",
+          "ABBA - Mamma Mia",
+          "ABBA - Money, Money, Money",
+          "ABBA - Name Of The Game",
+          "ABBA - One Of Us",
+          "ABBA - Ring Ring",
+          "ABBA - SOS",
+          "ABBA - Summer Night City",
+          "ABBA - Super Trouper",
+          "ABBA - Take A Chance On Me",
+          "ABBA - Thank You For The Music",
+          "ABBA - Voulez Vous",
+          "ABBA - Waterloo",
+          "ABBA - Winner Takes It All"
+        ]
+      },
+      {
+        "version": "SingStar: ABBA (2008)",
+        "platforms": ["PS3"],
+        "songs": [
+          "ABBA - Happy New Year",
+          "ABBA - Head Over Heels",
+          "ABBA - The Day Before You Came",
+          "ABBA - Under Attack",
+          "ABBA - When All Is Said And Done"
+        ]
+      },
+      {
+        "version": "SingStar - Singalong with Disney (2008)",
+        "platforms": ["PS2"],
+        "songs": [
+          "101 Dalmatians - Cruella De Vil",
+          "Aladdin - A Whole New World",
+          "Beauty And The Beast - Beauty And The Beast",
+          "Cinderella - Bibbidi-Bobbidi-Boo",
+          "Cinderella - The Work Song",
+          "Lady And The Tramp - He’s A Tramp",
+          "Peter Pan - Following The Leader",
+          "Peter Pan - You Can Fly",
+          "Pinocchio - When You Wish Upon A Star",
+          "Sleeping Beauty - Once Upon A Dream",
+          "Tarzan - Son Of Man",
+          "The Aristocats - Ev’rybody Wants To Be A Cat",
+          "The Jungle Book - The Bare Necessities",
+          "The Jungle Book - I Wanna Be Like You",
+          "The Little Mermaid - Under The Sea",
+          "The Little Mermaid - Kiss The Girl",
+          "The Lion King - I Just Can’t Wait To Be King",
+          "The Lion King - Circle Of Life",
+          "Toy Story - You’ve Got A Friend In Me",
+          "Winnie The Pooh - Winnie The Pooh"
+        ]
+      },
+      {
+        "version": "SingStar Schlager (2008)",
+        "platforms": ["PS2"],
+        "songs": [
+          "Bernd Clüver - Der Junge Mit Der Mundharmonika",
+          "Bino - Mama Leone (Deutsche Version)",
+          "Chris Roberts - Du Kannst Nicht Immer 17 Sein",
+          "Cindy & Bert - Immer Wieder Sonntags",
+          "Costa Cordalis - Anita",
+          "Dschinghis Khan - Dschinghis Khan",
+          "Gebrüder Blattschuss - Kreuzberger Nächte",
+          "Gitte - So Schön Kann Doch Kein Mann Sein",
+          "Gus Backus - Da Sprach Der Alte Häuptling Der Indianer",
+          "Henry Valentino & Uschi - Im Wagen Vor Mir",
+          "Howard Carpendale - Hello Again",
+          "Howard Carpendale - Tür An Tür Mit Alice",
+          "Juliane Werding - Am Tag Als Conny Kramer Starb",
+          "Jürgen Marcus - Eine Neue Liebe Ist Wie Ein Neues Leben",
+          "Klaus & Klaus - An Der Nordseeküste",
+          "Marianne Rosenberg - Er Gehört Zu Mir",
+          "Michael Holm - Mendocino",
+          "Michael Holm - Tränen Lügen Nicht",
+          "Nicole - Ein Bißchen Frieden",
+          "Peter Alexander - Kleine Kneipe",
+          "Peter Maffay - Und Es War Sommer",
+          "Rainhard Fendrich - Macho Macho",
+          "Rex Gildo - Fiesta Mexicana",
+          "Roberto Blanco - Ein Bisschen Spaß Muss Sein!",
+          "Roland Kaiser - Dich Zu Lieben",
+          "Roy Black & Anita - Schön Ist Es Auf Der Welt Zu Sein",
+          "Siw Malmkvist - Liebeskummer Lohnt Sich Nicht",
+          "Tony Marshall - Schöne Maid",
+          "Wencke Myhre - Er Hat Ein Knallrotes Gummiboot",
+          "Wolfgang Petry - Verlieben, Verloren, Vergessen, Verzeih'n"
+        ]
+      },
+      {
+        "version": "SingStar: Queen (2009)",
+        "platforms": ["PS2", "PS3"],
+        "songs": [
+          "Queen - Another One Bites The Dust",
+          "Queen - Bicycle Race",
+          "Queen - Bohemian Rhapsody",
+          "Queen - Breakthru",
+          "Queen - Crazy Little Thing Called Love",
+          "Queen - Don't Stop Me Now",
+          "Queen - Fat Bottomed Girls",
+          "Queen - I Want It All",
+          "Queen - I Want To Break Free",
+          "Queen - Innuendo",
+          "Queen - One Vision",
+          "Queen - Play The Game",
+          "Queen - Somebody To Love",
+          "Queen - These Are The Days Of Our Lives",
+          "Queen - Tie Your Mother Down",
+          "Queen - Under Pressure",
+          "Queen - We Are The Champions",
+          "Queen - We Will Rock You",
+          "Queen - Who Wants To Live Forever",
+          "Queen - You’re My Best Friend"
+        ]
+      },
+      {
+        "version": "SingStar: Queen (2009)",
+        "platforms": ["PS3"],
+        "songs": [
+          "Queen - A Kind Of Magic",
+          "Queen - Hammer To Fall",
+          "Queen - Killer Queen",
+          "Queen - Radio Ga Ga",
+          "Queen - The Show Must Go On"
+        ]
       }
+      
+      
+      
 
     ]
+    
 
   }
   
