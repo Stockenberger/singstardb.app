@@ -657,13 +657,146 @@
           "Queen - Radio Ga Ga",
           "Queen - The Show Must Go On"
         ]
-      }
-      
-      
-      
-
+      },
+      {
+        "version": "SingStar: Mallorca Party (2010)",
+        "platforms": ["PS3"],
+        "songs": [
+          "Almklausi - Ich Vermiss Dich (Wie die Hölle) - Mallorca Version",
+          "Almklausi - LoLoLos Geht's",
+          "Anna-Maria Zimmermann - Wer ist Dieser DJ",
+          "Arsenium - Rumadai",
+          "Axel Fischer - Amsterdam",
+          "Chris Marlow - Santa Maria",
+          "Creme 21 - Wann Wird's Mal Wieder Richtig Sommer",
+          "Dieter De - Erna Kommt",
+          "DJ Abschleppdienst - Pary, Palmen, Weiber Und'n Bier (Beach-Mix)",
+          "DJ Ötzi - Hey Baby",
+          "DJ Ötzi - Noch In 100.000 Jahren",
+          "DJ Ötzi und Hermes House Band - Live is Life",
+          "Jürgen - Immer Wenn ich Traurig Bin",
+          "Jürgen Drews - König Von Mallorca",
+          "Krümel - Mädchen Mädchen",
+          "Marco Bandero - Herzfest",
+          "Michael Wendler - Sie Liebt den DJ",
+          "Michael Wendler - Nina",
+          "Mickie Krause - Orange Trägt Nur Die Müllabfuhr",
+          "Nic - Ich Will Dich für Immer",
+          "Peter Wackel - Manchmal Möchte Ich Schon Mit Dir",
+          "Peter Wackel - Joana",
+          "Right Said Fred - Stand Up (For The Champions)",
+          "Schäfer Heinrich - Das Schäferlied",
+          "Stefan Peters - Schwarze Natascha",
+          "Strandgeier - Hände Hoch",
+          "Tim Toupet - So A Schöner Tag (Der Flieger)",
+          "Tim Toupet - Ich Bin Ein Döner",
+          "Zascha - Seit Mehr Als 1000 Jahren (Herz, Schmerz Und Dies Und Das)"
+        ]
+      },
+      {
+        "version": "SingStar: Mallorca Party (2010)",
+        "platforms": ["PS2"],
+        "songs": [
+          "Almklausi - Ich Vermiss Dich (Wie Die Hölle)  Mallorca-Version",
+          "Almklausi - LoLoLos Gehts",
+          "Anna-Maria Zimmermann - Wer Ist Dieser DJ",
+          "Arsenium - Rumadai",
+          "Axel Fischer - Amsterdam",
+          "Chris Marlow - Santa Maria",
+          "Creme 21 - Wann Wird's Mal Wieder Richtig Sommer",
+          "Dieter De - Erna Kommt",
+          "DJ Abschleppdienst - Party, Palmen, Weiber Und'n Bier (Beach Mix)",
+          "DJ Ötzi - Hey Baby",
+          "DJ Ötzi - Noch In 100.000 Jahren",
+          "DJ Ötzi und Hermes House Band - Live Is Life",
+          "Hermes House Band - Those Were The Days",
+          "Jürgen - Immer Wenn Ich Traurig Bin",
+          "Jürgen Drews - König Von Mallorca",
+          "Krümel - Mädchen Mädchen",
+          "Marco Bandero - Herzfest",
+          "Michael Wendler - Nina",
+          "Michael Wendler - Sie Liebt Den DJ",
+          "Mickie Krause - Orange Trägt Nur Die Müllabfuhr",
+          "Nic - Ich Will Dich Für Immer",
+          "Peter Wackel - Joana",
+          "Peter Wackel - Manchmal Möchte Ich Schon Mit Dir",
+          "Right Said Fred - Stand Up (For The Champions)",
+          "Schäfer Heinrich - Das Schäferlied",
+          "Stefan Peters - Schwarze Natascha",
+          "Strandgeier - Hände Hoch",
+          "Tim Toupet - Ich bin Ein Döner",
+          "Tim Toupet - So A Schöner Tag (Der Flieger)",
+          "Zascha - Seit Mehr Als 1000 Jahren (Herz, Schmerz Und Dies Und Das)"
+        ]
+      },
+      {
+        "version": "SingStar Made in Germany (2009)",
+        "platforms": ["PS2"],
+        "songs": [
+          "2raumwohnung - Wir Werden Sehen",
+          "Bananafishbones & Franka Potente - Easy Day",
+          "BEN*JAMMIN - Spring",
+          "Boney M. - Ma Baker",
+          "Cassandra Steen - Darum Leben Wir",
+          "Culcha Candela - Ey DJ",
+          "Die Doofen - Mief! (Nimm Mich Jetzt, Auch Wenn Ich Stinke)",
+          "Eisblume - Eisblumen",
+          "Extrabreit - Flieger, Grüß Mir Die Sonne",
+          "Die Fantastischen Vier - Die Da!?",
+          "Fury In The Slaughterhouse - When I'm Dead And Gone",
+          "Guano Apes - You Can't Stop Me",
+          "H-Blockx - Countdown To Insanity",
+          "Karat - Über Sieben Brücken Musst Du Gehn",
+          "Killerpilze - Liebmichhassmich",
+          "Lucilectric - Mädchen",
+          "Max Herre mit Joy Denalane - 1ste Liebe",
+          "Melanie Thornton - Love How You Love Me",
+          "Milli Vanilli - Girl You Know It's True",
+          "Nena, Olli & Remmler - Ich Kann Nix Dafür",
+          "Die Prinzen - Millionär",
+          "PUR - Lena",
+          "Rosenstolz - Wie Weit Ist Vorbei",
+          "Sandra - Maria Magdalena",
+          "Sarah Connor - From Sarah With Love",
+          "Scorpions - Send Me An Angel",
+          "Selig - Schau Schau",
+          "Tomte - Ich Sang Die Ganze Zeit Von Dir",
+          "Die Toten Hosen - Alles Was War",
+          "Wolfgang Petry - Bronze, Silber Und Gold (Live)"
+        ]
+      },
+      {
+        "version": "SingStar: Take That (2009)",
+        "platforms": ["PS2", "PS3"],
+        "songs": [
+          "Take That - Babe",
+          "Take That - Back For Good",
+          "Take That - Beautiful World",
+          "Take That - Could It Be Magic",
+          "Take That - Do What U Like",
+          "Take That - Everything Changes",
+          "Take That - Greatest Day",
+          "Take That - Hold Up A Light",
+          "Take That - I'd Wait For Life",
+          "Take That - It Only Takes A Minute",
+          "Take That - Love Ain't Here Anymore",
+          "Take That - A Million Love Songs",
+          "Take That - Never Forget",
+          "Take That - Once You've Tasted Love",
+          "Take That - Patience",
+          "Take That - Pray",
+          "Take That - Promises",
+          "Take That - Reach Out",
+          "Take That - Rule The World",
+          "Take That - Said It All",
+          "Take That - Shine",
+          "Take That - Sure",
+          "Take That - Up All Night",
+          "Take That - Why Can't I Wake Up With You",
+          "Take That feat. Lulu - Relight My Fire"
+        ]
+      }  
     ]
     
-
   }
   
