@@ -135,6 +135,7 @@ body {
 header {
   text-align: center;
   margin-bottom: 40px;
+  position: relative;
 }
 
 .logo-container {
@@ -175,32 +176,28 @@ header {
   margin-bottom: 25px;
 }
 
-/* Header Links */
-.links {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.pill-link {
-  color: var(--text-main);
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  padding: 6px 16px;
-  border-radius: 50px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--panel-border);
+/* GitHub Icon Link */
+.github-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: var(--text-muted);
   transition: var(--transition-smooth);
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.pill-link:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  border-color: rgba(255, 255, 255, 0.2);
+.github-link:hover {
+  color: var(--accent-pink);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-elem);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: var(--shadow-glow);
 }
 
 /* =========================================
