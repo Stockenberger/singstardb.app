@@ -47,9 +47,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  /* High performance static gradient replacing blobs */
-  background: radial-gradient(circle at top left, #1c1132 0%, var(--bg-color) 40%),
-              radial-gradient(circle at bottom right, #240b1e 0%, var(--bg-color) 40%);
+  /* High performance vibrant gradient replacing dark background */
+  background: linear-gradient(135deg, #4a001d 0%, #151822 40%, #1c0042 100%);
   background-attachment: fixed;
   background-color: var(--bg-color);
   color: var(--text-main);
