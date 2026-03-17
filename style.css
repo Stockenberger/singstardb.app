@@ -163,6 +163,7 @@ header {
   font-size: 3.5rem;
   letter-spacing: -1px;
   background: var(--gradient-primary);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -370,8 +371,8 @@ select option {
 }
 
 /* Contains specific widths for specific logos to normalize them */
-.logo-ps2 { width: auto; height: 18px; }
-.logo-ps3 { width: auto; height: 16px; }
+.logo-ps2 { width: auto; height: 28px; }
+.logo-ps3 { width: auto; height: 24px; }
 
 /* =========================================
    Empty State
