@@ -47,6 +47,10 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  /* High performance static gradient replacing blobs */
+  background: radial-gradient(circle at top left, #1c1132 0%, var(--bg-color) 40%),
+              radial-gradient(circle at bottom right, #240b1e 0%, var(--bg-color) 40%);
+  background-attachment: fixed;
   background-color: var(--bg-color);
   color: var(--text-main);
   min-height: 100vh;
@@ -72,37 +76,7 @@ body {
 }
 
 /* =========================================
-   Background Animations
-   ========================================= */
-.background-blob {
-  position: fixed;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: -1;
-  /* Removed continuous animation for massive GPU savings */
-}
-
-.blob-1 {
-  top: -10%; left: -10%;
-  width: 60vw; height: 60vw;
-  background: var(--gradient-blob-1);
-}
-
-.blob-2 {
-  bottom: -20%; right: -10%;
-  width: 50vw; height: 50vw;
-  background: var(--gradient-blob-2);
-}
-
-.blob-3 {
-  top: 30%; left: 50%;
-  transform: translateX(-50%);
-  width: 70vw; height: 40vw;
-  background: var(--gradient-blob-3);
-}
-
-/* =========================================
-   Layout & Glassmorphism
+   Layout
    ========================================= */
 .container {
   max-width: 900px;
@@ -111,13 +85,13 @@ body {
 }
 
 .glass-panel {
-  background: var(--panel-bg);
-  backdrop-filter: blur(var(--blur-amount));
-  -webkit-backdrop-filter: blur(var(--blur-amount));
+  background: #151822; /* Solid performant background fallback */
+  background: linear-gradient(145deg, rgba(30, 35, 48, 0.9) 0%, rgba(20, 24, 34, 0.95) 100%);
+  /* backdrop-filter intentionally removed for maximum GPU performance */
   border: 1px solid var(--panel-border);
   border-radius: var(--radius-lg);
   padding: 40px;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* =========================================
