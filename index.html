@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SingStarDB</title>
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <!-- Google Fonts for Modern Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Dynamic Background Element -->
+  <div class="background-blob blob-1"></div>
+  <div class="background-blob blob-2"></div>
+  <div class="background-blob blob-3"></div>
+
+  <div class="container glass-panel">
+    <!-- Header Section -->
+    <header>
+      <div class="logo-container">
+        <img src="./assets/logo.png" alt="SingStarDB Logo" class="logo-img" />
+        <h1 class="logo-text">SingStarDB</h1>
+      </div>
+      <p class="subtitle">The ultimate searchable database for all your favorite tracks.</p>
+
+      <div class="links">
+        <a href="mailto:m@rvin.dev" class="pill-link">Report Error</a>
+        <a href="https://github.com/Stockenberger/singstardb.app/" target="_blank" class="pill-link">GitHub</a>
+        <a href="https://stockenberger.dev" target="_blank" class="pill-link">Creator</a>
+      </div>
+    </header>
+
+    <!-- Controls Section -->
+    <section class="controls">
+      <div class="search-wrapper">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search for a song or artist..." autocomplete="off">
+      </div>
+
+      <div class="select-wrapper">
+        <select id="countrySelect">
+          <option value="All">Global (All Regions)</option>
+          <!-- Options will be populated dynamically via JS based on singstarData.json -->
+        </select>
+        <svg class="select-chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-container">
+      <div class="results-meta">
+        <span id="resultsCount">Loading songs...</span>
+      </div>
+      
+      <!-- The dynamic song list gets injected here -->
+      <ul id="songList" class="song-list">
+        <!-- List Items injected via JS -->
+      </ul>
+      
+      <!-- Empty state container for no results -->
+      <div id="noResults" class="empty-state hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M16 16s-1.5-2-4-2-4 2-4 2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+        <p>No songs found matching your search.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Custom Logic Script -->
+  <script src="app.js"></script>
+</body>
+</html>
