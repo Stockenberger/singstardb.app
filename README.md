@@ -13,6 +13,8 @@
 
 SingStarDB is a lightning-fast, glassmorphic web application that allows users to instantly search for songs and find out which exact SingStar versions and platforms they are available on. 
 
+**🚀 Try it live here: [http://singstardb.app.marvin.cx/](http://singstardb.app.marvin.cx/)**
+
 ## ✨ Features
 - **Instant Search:** Find songs by artist or title instantly with a highly optimized Vanilla JS filtering system.
 - **Region Filtering:** Filter tracks globally or by specific countries (e.g., DE, UK, US).
